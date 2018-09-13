@@ -1,5 +1,5 @@
 
-[![Travis build status](https://travis-ci.com/anubhav-dikshit/rLab3.svg?branch=master)](https://travis-ci.com/anubhav-dikshit/rLab3)
+[![Travis build status](https://travis-ci.com/anubhav-dikshit/rLab3.svg?branch=master)](https://travis-ci.com/anubhav-dikshit/rLab3) [![Coverage status](https://codecov.io/gh/anubhav-dikshit/rLab3/branch/master/graph/badge.svg)](https://codecov.io/github/anubhav-dikshit/rLab3?branch=master)
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 rLab3

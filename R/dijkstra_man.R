@@ -14,6 +14,9 @@
 
 dijkstra_man = function(graph, init_node) {
   # checking input
+  if(NCOL(graph) != 3){stop("Incorrect dataframe size")}
+  if(any(colnames(graph) != c("v1", "v2", "w"))){stop("Incorrect dataframe names")}
+  if(init_node >= length(unique(graph[,1]))){stop("Incorrect node selected")}
   if(!is.data.frame(graph) | !is.numeric(init_node)) {
     stop("input is not correct.")
   }

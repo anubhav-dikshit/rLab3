@@ -10,6 +10,8 @@
 #'
 #' @examples euclidean(100,1000)
 euclidean <- function(a,b){
+  a <- abs(a)
+  b <- abs(b)
   if(a == 0 | b == 0 | is.na(a) | is.na(b) | !is.numeric(a) | !is.numeric(b)){stop("incorrect inputs")}
   if(a > b){
     temp <- b

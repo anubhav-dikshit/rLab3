@@ -14,11 +14,13 @@
 #'  dijkstra_adv(wiki_graph, 1)
 
 dijkstra_adv <- function(df, node) {
+  if(NCOL(df) != 3){stop("Incorrect dataframe size")}
+  if(any(colnames(df) != c("v1", "v2", "w"))){stop("Incorrect dataframe names")}
+  if(node >= length(unique(df[,1]))){stop("Incorrect node selected")}
   if(is.data.frame(df) & is.numeric(node)){
     n <- length(unique(df[,1]))
     colnames(df) <- c("S", "D", "W")
     result <- df
-
 
     for(i in 1:n-1){
       df2 <-  dplyr::left_join(x = result, y = df, by = c("D" = "S"))
