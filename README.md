@@ -1,4 +1,6 @@
 
+[![Travis build status](https://travis-ci.com/anubhav-dikshit/rLab3.svg?branch=master)](https://travis-ci.com/anubhav-dikshit/rLab3)
+
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 rLab3
 =====
