@@ -1,0 +1,19 @@
+Package: rLab3
+Version: 0.0.0.9000
+Title: Eucledian GCD and Djikstra
+Description: Returns the GCD of two numbers and provides the shortest distance from a node in network to all other nodes
+Authors@R: person("Anubhav", "Dikshit", email = "anudi287@student.liu.se", role = c("aut", "cre"))
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Depends: R (>= 3.0)
+ByteCompile: true
+RoxygenNote: 6.1.0
+Imports: 
+    reshape2,
+    dplyr,
+    data.table
+Suggests: 
+    testthat
+URL: https://github.com/anubhav-dikshit/rLab3
+BugReports: https://github.com/anubhav-dikshit/rLab3/issues
