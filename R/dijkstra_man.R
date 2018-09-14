@@ -5,6 +5,7 @@
 #'
 #' @return returns a vector with distances to other nodes
 #' @export
+#' @source \href{https://en.wikipedia.org/wiki/Dijkstra\%27s_algorithm}{Wikipedia}
 #'
 #' @examples wiki_graph <-
 #' data.frame(v1=c(1,1,1,2,2,2,3,3,3,3,4,4,4,5,5,6,6,6),

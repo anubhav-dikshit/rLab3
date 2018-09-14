@@ -7,7 +7,7 @@
 #'
 #' @return the gcd
 #' @export
-#'
+#' @source \href{https://en.wikipedia.org/wiki/Euclidean_algorithm}{Wikipedia}
 #' @examples euclidean(100,1000)
 euclidean <- function(a,b){
   a <- abs(a)
